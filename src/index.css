@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", Georgia, serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-gold-50: #fffbeb;
+  --color-gold-100: #fef3c7;
+  --color-gold-200: #fde68a;
+  --color-gold-300: #fcd34d;
+  --color-gold-400: #fbbf24;
+  --color-gold-500: #f59e0b;
+  --color-gold-600: #d97706;
+  --color-gold-700: #b45309;
+  --color-gold-800: #78350f;
+  --color-gold-900: #451a03;
+  --color-gold-950: #1c0d02;
+}
+
+/* Custom glow animations and gradients */
+@keyframes pulse-gold {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+    filter: drop-shadow(0 0 15px rgba(251, 191, 36, 0.6));
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.03);
+    filter: drop-shadow(0 0 30px rgba(251, 191, 36, 0.9));
+  }
+}
+
+.gold-glow-animation {
+  animation: pulse-gold 3s infinite ease-in-out;
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #fde68a 0%, #fbbf24 45%, #d97706 85%, #451a03 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(to right, #78350f, #fbbf24, #78350f) 1;
+}
+
+/* Water splashing animations for clicker */
+@keyframes splash {
+  0 {
+    transform: scale(0.3) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5) translateY(-60px);
+    opacity: 0;
+  }
+}
+
+.water-splash {
+  animation: splash 0.8s cubic-bezier(0.1, 0.8, 0.3, 1) forwards;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b; /* Zinc 950 */
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a; /* Zinc 800 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fbbf24; /* Amber 400 */
+}
