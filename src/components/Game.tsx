@@ -291,14 +291,14 @@ export default function Game({ contractAddress }: GameProps) {
             <div 
               ref={containerRef}
               onClick={handleBullClick}
-              className="relative aspect-video w-full rounded-3xl overflow-hidden border-2 border-gold-800/60 bg-[#090604] cursor-pointer select-none group active:border-gold-400 duration-150 shadow-2xl"
+              className="relative aspect-[16/10] w-full rounded-3xl overflow-hidden border-2 border-gold-800/60 bg-[#090604] cursor-pointer select-none group active:border-gold-400 duration-150 shadow-2xl"
               style={{ maxHeight: '420px' }}
             >
               {/* Background Art - The Epic Image scaled with dimming */}
               <img 
                 src="https://cdn.shopify.com/s/files/1/0967/8087/8151/files/photo_2026-07-06_15-06-16.jpg?v=1783339592" 
                 alt="Stage Artwork" 
-                className={`w-full h-full object-cover transition-transform duration-300 select-none pointer-events-none group-active:scale-[1.01] ${
+                className={`w-full h-full object-cover object-top transition-transform duration-300 select-none pointer-events-none group-active:scale-[1.01] ${
                   fudActive ? 'filter brightness-40 saturate-50' : 'brightness-75'
                 }`}
               />
