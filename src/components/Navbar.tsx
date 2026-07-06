@@ -69,7 +69,7 @@ export default function Navbar({ contractAddress }: NavbarProps) {
           </button>
 
           <a 
-            href="https://t.me/TheCryptoBull_CZ" /* Placeholder link that user can update later */
+            href="https://t.me/czthecryptobull"
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-gradient-to-r from-gold-600 to-gold-400 hover:from-gold-500 hover:to-gold-300 text-gold-950 font-sans font-bold text-sm px-5 py-2 rounded-full transition-all duration-300 shadow-md shadow-gold-600/20 hover:shadow-lg hover:shadow-gold-400/40 transform hover:-translate-y-0.5 active:translate-y-0"

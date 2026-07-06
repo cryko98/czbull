@@ -37,7 +37,7 @@ export default function Footer() {
           </p>
           <div className="pt-2">
             <a 
-              href="https://t.me/TheCryptoBull_CZ" /* Placeholder link that user can update later */
+              href="https://t.me/czthecryptobull"
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-gold-600 to-gold-400 hover:from-gold-500 hover:to-gold-300 text-gold-950 font-sans font-black text-xs px-6 py-3 rounded-full transition-all duration-300 shadow-md shadow-gold-600/10"
