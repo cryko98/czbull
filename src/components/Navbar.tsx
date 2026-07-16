@@ -21,16 +21,16 @@ export default function Navbar({ contractAddress }: NavbarProps) {
         {/* Logo and Brand */}
         <div className="flex items-center gap-3">
           <img 
-            src="https://cdn.shopify.com/s/files/1/0967/8087/8151/files/photo_2026-07-06_15-06-16.jpg?v=1783339592" 
-            alt="The Crypto Bull Logo" 
+            src="https://cdn.shopify.com/s/files/1/0967/8087/8151/files/photo_2026-07-16_15-13-27.jpg?v=1784204037" 
+            alt="CatBull Logo" 
             className="w-10 h-10 rounded-full border-2 border-gold-400 object-cover shadow-lg shadow-gold-500/20"
           />
           <div className="flex flex-col">
             <span className="font-serif text-lg md:text-xl font-bold tracking-wider text-gold-400">
-              THE CRYPTO BULL
+              CATBULL
             </span>
             <span className="font-mono text-xs text-gold-500/80 font-bold tracking-widest">
-              TICKER: $CZBULL
+              TICKER: $catbull
             </span>
           </div>
         </div>
@@ -69,9 +69,8 @@ export default function Navbar({ contractAddress }: NavbarProps) {
           </button>
 
           <a 
-            href="https://t.me/czthecryptobull"
-            target="_blank" 
-            rel="noopener noreferrer"
+            href="#"
+            onClick={(e) => { e.preventDefault(); alert("Telegram link coming soon!"); }}
             className="flex items-center gap-2 bg-gradient-to-r from-gold-600 to-gold-400 hover:from-gold-500 hover:to-gold-300 text-gold-950 font-sans font-bold text-sm px-5 py-2 rounded-full transition-all duration-300 shadow-md shadow-gold-600/20 hover:shadow-lg hover:shadow-gold-400/40 transform hover:-translate-y-0.5 active:translate-y-0"
           >
             <Send className="w-4 h-4 fill-current" />

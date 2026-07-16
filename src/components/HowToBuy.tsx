@@ -31,13 +31,13 @@ export default function HowToBuy({ contractAddress }: HowToBuyProps) {
       num: "03",
       icon: <Search className="w-6 h-6 text-gold-400" />,
       title: "CONNECT TO PUMP.FUN",
-      desc: "Go to pump.fun, connect your wallet, and paste the official $CZBULL contract address below in the search bar to find the token page."
+      desc: "Go to pump.fun, connect your wallet, and paste the official $catbull contract address below in the search bar to find the token page."
     },
     {
       num: "04",
       icon: <Zap className="w-6 h-6 text-gold-400 text-gold-glow" />,
-      title: "SWAP SOL FOR $CZBULL",
-      desc: "Choose the amount of SOL you want to swap, click 'Buy', and confirm the transaction. Hold tight and let CZ lead the bull run!"
+      title: "SWAP SOL FOR $catbull",
+      desc: "Choose the amount of SOL you want to swap, click 'Buy', and confirm the transaction. Hold tight and let CatBull lead the stampede!"
     }
   ];
 
@@ -58,7 +58,7 @@ export default function HowToBuy({ contractAddress }: HowToBuyProps) {
             How to Buy on <span className="gold-text-gradient">Pump.fun</span>
           </h2>
           <p className="font-sans text-stone-300 text-sm md:text-base">
-            Follow these 4 simple, secure steps to convert your SOL into high-energy $CZBULL bull power.
+            Follow these 4 simple, secure steps to convert your SOL into high-energy $catbull power.
           </p>
         </div>
 
@@ -135,7 +135,7 @@ export default function HowToBuy({ contractAddress }: HowToBuyProps) {
 
           <div>
             <a 
-              href="https://pump.fun" /* Standard link */
+              href="https://pump.fun/coin/xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-gradient-to-r from-gold-500 via-gold-400 to-amber-500 hover:from-gold-400 hover:to-amber-400 text-stone-950 font-sans font-black text-base px-8 py-4 rounded-xl shadow-lg shadow-gold-500/20 hover:shadow-gold-400/40 transition-all duration-300 cursor-pointer transform hover:-translate-y-0.5"

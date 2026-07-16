@@ -43,16 +43,16 @@ export default function Hero({ contractAddress }: HeroProps) {
           <div className="space-y-3">
             <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tight leading-none">
               <span className="block text-gold-100 drop-shadow-sm">THE LEGENDARY</span>
-              <span className="block gold-text-gradient gold-glow-animation">CRYPTO BULL</span>
+              <span className="block gold-text-gradient gold-glow-animation">CATBULL</span>
             </h1>
             <p className="font-mono text-gold-400/90 text-lg md:text-xl font-bold tracking-widest uppercase">
-              Ticker: $CZBULL • Born on Solana
+              Ticker: $catbull • Born on Solana
             </p>
           </div>
 
           {/* Description */}
           <p className="font-sans text-stone-300 text-base md:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-            The world knew him as the Emperor of the Binance Realms. Now, <span className="text-gold-300 font-bold">CZ returns unchained</span> to ride the wildest, fastest bull of them all—the Solana Bull. No cages, no limits, pure hyper-speed decentralized dominance. Are you ready to ride with the true king of crypto?
+            The ultimate feline-bovine hybrid has arrived. <span className="text-gold-300 font-bold">CatBull</span> merges the lightning-fast reflexes of a cat with the raw, unstoppable power of a charging bull. No red flag can phase him, no shelf is safe from being knocked over, and only green candles lie ahead. Are you ready to run with the most bullish feline in crypto history?
           </p>
 
           {/* Contract Address Callout Card */}
@@ -84,20 +84,20 @@ export default function Hero({ contractAddress }: HeroProps) {
           {/* Core Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2">
             <a
-              href="https://pump.fun" /* Standard pump.fun landing link or custom CA link once created */
+              href="https://pump.fun/coin/xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 bg-gradient-to-r from-gold-500 via-gold-400 to-amber-500 hover:from-gold-400 hover:to-amber-400 text-stone-950 font-sans font-black text-base px-8 py-4 rounded-xl shadow-lg shadow-gold-500/30 transition-all duration-300 hover:scale-103 hover:shadow-gold-400/50 transform active:scale-98"
             >
               <Zap className="w-5 h-5 fill-current text-stone-950 animate-bounce" />
-              BUY $CZBULL ON PUMP.FUN
+              BUY $catbull ON PUMP.FUN
             </a>
 
             <button
               onClick={() => scrollToSection('mini-game')}
               className="flex items-center justify-center gap-2 bg-stone-900/80 hover:bg-stone-800 border-2 border-gold-600/40 hover:border-gold-400 text-gold-300 font-sans font-bold text-base px-8 py-4 rounded-xl transition-all duration-300 hover:scale-103 hover:text-gold-200"
             >
-              Play Bull Run Game
+              Play CatBull Game
               <ArrowDown className="w-4 h-4 text-gold-500 animate-bounce" />
             </button>
           </div>
@@ -112,8 +112,8 @@ export default function Hero({ contractAddress }: HeroProps) {
             
             {/* The absolute hero image */}
             <img 
-              src="https://cdn.shopify.com/s/files/1/0967/8087/8151/files/photo_2026-07-06_15-06-16.jpg?v=1783339592" 
-              alt="CZ Riding the Mighty Crypto Bull" 
+              src="https://cdn.shopify.com/s/files/1/0967/8087/8151/files/photo_2026-07-16_15-13-27.jpg?v=1784204037" 
+              alt="CatBull - Feline Bullish Masterpiece" 
               className="w-full h-auto object-cover transform duration-700 group-hover:scale-105"
             />
 
@@ -123,10 +123,10 @@ export default function Hero({ contractAddress }: HeroProps) {
             {/* Bottom floating details */}
             <div className="absolute bottom-4 left-4 right-4 bg-black/75 backdrop-blur-md rounded-xl p-3 border border-gold-800/40 text-left">
               <p className="font-serif text-sm font-bold text-gold-300 tracking-wide uppercase">
-                "CZ: The Crypto Bull" Official Artwork
+                "The Legendary CatBull" Official Artwork
               </p>
               <p className="font-sans text-xs text-stone-300 mt-1">
-                A masterpiece representing the ultimate power of Decentralization & Solana speed.
+                The ultimate fusion of agile kitten instincts and massive bullish determination on Solana.
               </p>
             </div>
           </div>

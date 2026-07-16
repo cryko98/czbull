@@ -1,6 +1,6 @@
 {
-  "name": "The Crypto Bull",
-  "description": "The ultimate Solana memecoin $CZ featuring CZ riding the majestic Crypto Bull. SAFU, high-energy, and ready to conquer the bull market.",
+  "name": "CatBull",
+  "description": "The ultimate Solana memecoin $CATBULL. The perfect, unstoppable hybrid of feline agility and unstoppable bovine force. SAFU, high-energy, and ready to conquer.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

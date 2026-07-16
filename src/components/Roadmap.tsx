@@ -5,54 +5,54 @@ export default function Roadmap() {
   const phases = [
     {
       num: "PHASE 1",
-      title: "4 (THE GENESIS PROTOCOL)",
-      tagline: "Unchained launch & absolute SAFU protocol initiation",
+      title: "THE KITTEN GENESIS",
+      tagline: "Stealth launch & clawing the curve",
       icon: <Sparkles className="w-5 h-5 text-gold-400" />,
       items: [
         "Stealth launch on pump.fun with 100% liquidity locked & burnt.",
-        "Initiate extreme golden meme takeover across Telegram channels.",
-        "Spam '4' in every chat to activate the ancient CZ blessings.",
+        "Initiate extreme CatBull meme takeover across all social channels.",
+        "Spam feline-bovine meows in every chat to gather the initial herd.",
         "Blast through the bonding curve and successfully list on Raydium.",
-        "Secure first 1,000 diamond hand riders."
+        "Secure first 1,000 diamond claw holders."
       ]
     },
     {
       num: "PHASE 2",
-      title: "THE BULL STAMPEDE",
-      tagline: "Viral velocity, market trends, and banking panic",
+      title: "THE MEOW STAMPEDE",
+      tagline: "Viral agility meets heavy bovine volume",
       icon: <TrendingUp className="w-5 h-5 text-gold-400" />,
       items: [
         "Shatter $1,000,000 Market Cap target within the first sunset.",
-        "Trend #1 on DexScreener, DexTools, and Solana Trending list.",
-        "Community 'CZ Riding a Bull' photoshop and video editing tournament.",
-        "Produce customized Solana sticker packs and high-quality memes.",
+        "Trend #1 on DexScreener, DexTools, and Solana Trending lists.",
+        "Community 'CatBull photoshop and meme generator' tournament.",
+        "Produce customized CatBull Telegram sticker packs and high-quality GIFs.",
         "Coingecko and CoinMarketCap speedrun applications."
       ]
     },
     {
       num: "PHASE 3",
-      title: "THE SAFU ASCENDANCY",
-      tagline: "Mainstream awareness & tweet manifestations",
+      title: "THE MOON CAT RUN",
+      tagline: "Feline-bovine supremacy and mainstream adoption",
       icon: <ShieldCheck className="w-5 h-5 text-gold-400" />,
       items: [
-        "Reach $50M Market Cap causing global banker crying noises.",
-        "Induce high-grade viral FOMO by targeting premium crypto influencers.",
-        "Infiltrate CZ's replies with the masterpiece painting of him on the Bull.",
-        "CZ posts a tweet containing the number '4' or a bull icon, causing massive green candles.",
-        "Establish 'The Crypto Bull DAO' for community governance on memes."
+        "Reach $50M Market Cap causing massive waves on CT (Crypto Twitter).",
+        "Induce high-grade viral FOMO with premium cat and bull cartoon edits.",
+        "Release physical CatBull plushies and custom apparel for the community.",
+        "First major exchange listings (CEX) to accommodate the stampeding herd.",
+        "Establish 'CatBull Sanctuary DAO' for community governance and meme production."
       ]
     },
     {
       num: "PHASE 4",
-      title: "INTERGALACTIC CONQUEST",
-      tagline: "Parabolic absolute status & global dominance",
+      title: "SCRATCHING THE MOON",
+      tagline: "Parabolic takeover and global financial dominance",
       icon: <Trophy className="w-5 h-5 text-gold-400" />,
       items: [
         "Shatter $1,000,000,000 Market Cap - absolute parabolic state.",
-        "Send a high-definition copy of our main CZ Bull image into orbit.",
-        "CZ is nominated as the supreme president of decentralized systems.",
-        "Replace standard fiat money globally with $CZBULL golden stickers.",
-        "Retire on a beautiful island, riding real bulls through clear tropical oceans."
+        "Send a high-definition copy of our main CatBull image into orbit.",
+        "Erect a giant CatBull bronze monument in the financial centers.",
+        "Replace standard fiat currency globally with $catbull golden paw prints.",
+        "Retire on a beautiful island, drinking milk out of golden coconuts with real bulls."
       ]
     }
   ];
@@ -75,7 +75,7 @@ export default function Roadmap() {
             THE SAFU ROADMAP
           </h2>
           <p className="font-sans text-stone-300 text-sm md:text-base">
-            Witness the ultimate manifestation phases of $CZBULL. Fasten your seatbelts, hold your golden coins, and get ready for the stampede.
+            Witness the ultimate manifestation phases of $catbull. Fasten your seatbelts, hold your golden claws, and get ready for the stampede.
           </p>
         </div>
 

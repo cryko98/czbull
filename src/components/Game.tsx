@@ -126,7 +126,7 @@ export default function Game({ contractAddress }: GameProps) {
       id: Date.now() + Math.random(),
       x,
       y,
-      text: `+${clickedIncrement} $CZBULL`
+      text: `+${clickedIncrement} $catbull`
     };
     setFloatingTexts(prev => [...prev, newText]);
 
@@ -147,11 +147,11 @@ export default function Game({ contractAddress }: GameProps) {
   // Triggering random FUD to conquer
   const triggerFud = () => {
     const fuds = [
-      "Gary is looking through his binoculars!",
-      "Whale sells 20 SOL of paper hands panic!",
-      "A fake influencer claims $CZ is 'too SAFU'!",
-      "Traditional banker says Bitcoin is just bubble tea!",
-      "Your friend sells at the bottom for lunch money!"
+      "Gary is looking for lasers in the green candles!",
+      "Whale drops a giant ball of yarn, slowing the market!",
+      "A bear tries to scratch, but meets the massive golden horns!",
+      "A silly dog coin barks loudly, trying to distract the feline herd!",
+      "Traditional banker claims cats don't have massive bullish chests!"
     ];
     const randomFud = fuds[Math.floor(Math.random() * fuds.length)];
     setFudText(randomFud);
@@ -184,11 +184,11 @@ export default function Game({ contractAddress }: GameProps) {
   // Handle achievement check
   useEffect(() => {
     const achievementsToUnlock: { clicks: number; title: string }[] = [
-      { clicks: 10, title: "10 Clicks: Golden Hoof Initiation" },
-      { clicks: 50, title: "50 Clicks: Water Splasher Elite" },
-      { clicks: 150, title: "150 Clicks: CZ's Favorite Bull Rider" },
-      { clicks: 400, title: "400 Clicks: 100% SAFU Certified Holder" },
-      { clicks: 1000, title: "1000 Clicks: Interstellar Bull Overlord" }
+      { clicks: 10, title: "10 Clicks: Catnip Horn Initiation" },
+      { clicks: 50, title: "50 Clicks: Feline Stampede Specialist" },
+      { clicks: 150, title: "150 Clicks: Alpha Whiskers Club Member" },
+      { clicks: 400, title: "400 Clicks: Golden Claw Bull Master" },
+      { clicks: 1000, title: "1000 Clicks: Interstellar CatBull Emperor" }
     ];
 
     achievementsToUnlock.forEach(ach => {
@@ -200,15 +200,15 @@ export default function Game({ contractAddress }: GameProps) {
 
     // Update Rider Tier based on clicks
     if (clicks >= 1000) {
-      setActiveTier('Solana Emperor of SAFU 👑');
+      setActiveTier('CatBull Emperor of Solana 👑');
     } else if (clicks >= 400) {
-      setActiveTier('Legendary Bull Tamer 🦁');
+      setActiveTier('Golden Claw Gladiator 🦁');
     } else if (clicks >= 150) {
-      setActiveTier('DexScreener Trendsetter 📈');
+      setActiveTier('Moon-Cat Herd Leader 📈');
     } else if (clicks >= 50) {
-      setActiveTier('Solana Chad 💎');
+      setActiveTier('Feline Bull Chad 💎');
     } else {
-      setActiveTier('Solana Rookie 🍼');
+      setActiveTier('Catnip Rookie 🍼');
     }
   }, [clicks]);
 
@@ -244,10 +244,10 @@ export default function Game({ contractAddress }: GameProps) {
             Interactive Experience
           </div>
           <h2 className="font-serif text-3xl md:text-5xl font-extrabold text-gold-100">
-            SOLANA BULL RUN GAME
+            CATBULL RUN GAME
           </h2>
           <p className="font-sans text-stone-300 text-sm md:text-base">
-            Click/tap the epic CZ image to splash golden water, speed up the Bull, and earn billions of $CZBULL. Conquer FUD alerts and unlock CZ-approved title achievements!
+            Click/tap the epic CatBull image to splash golden water, speed up the stampede, and earn billions of $catbull. Conquer FUD alerts and unlock CatBull-approved title achievements!
           </p>
         </div>
 
@@ -296,7 +296,7 @@ export default function Game({ contractAddress }: GameProps) {
             >
               {/* Background Art - The Epic Image scaled with dimming */}
               <img 
-                src="https://cdn.shopify.com/s/files/1/0967/8087/8151/files/photo_2026-07-06_15-06-16.jpg?v=1783339592" 
+                src="https://cdn.shopify.com/s/files/1/0967/8087/8151/files/photo_2026-07-16_15-13-27.jpg?v=1784204037" 
                 alt="Stage Artwork" 
                 className={`w-full h-full object-cover object-top transition-transform duration-300 select-none pointer-events-none group-active:scale-[1.01] ${
                   fudActive ? 'filter brightness-40 saturate-50' : 'brightness-75'
@@ -329,7 +329,7 @@ export default function Game({ contractAddress }: GameProps) {
               {/* Click instruction overlay */}
               <div className="absolute inset-x-0 bottom-4 flex flex-col items-center pointer-events-none text-center">
                 <span className="bg-black/80 px-4 py-2 border border-gold-900/60 rounded-full font-serif text-xs md:text-sm text-gold-300 font-bold tracking-widest uppercase shadow-md animate-pulse">
-                  ⚡ TAP TO ACCELERATE THE BULL ⚡
+                  ⚡ TAP TO STAMPEDE THE CATBULL ⚡
                 </span>
               </div>
 

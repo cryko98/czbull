@@ -18,12 +18,12 @@ export default function Tokenomics({ contractAddress }: TokenomicsProps) {
     {
       label: "TOTAL SUPPLY",
       value: "1,000,000,000",
-      desc: "One Billion $CZBULL tokens, matching the cosmic balance of decentralization."
+      desc: "One Billion $catbull tokens, matching the cosmic balance of feline-bovine decentralization."
     },
     {
       label: "BUY / SELL TAX",
       value: "0% / 0%",
-      desc: "Zero transaction friction. Pure, unfiltered CZ energy flowing seamlessly."
+      desc: "Zero transaction friction. Pure, unfiltered bullish cat energy flowing seamlessly."
     },
     {
       label: "LIQUIDITY STATUS",
@@ -54,7 +54,7 @@ export default function Tokenomics({ contractAddress }: TokenomicsProps) {
             TOKENOMICS & SECURITY
           </h2>
           <p className="font-sans text-stone-300 text-sm md:text-base">
-            No tricks, no hidden wallets, and absolutely no tax. Learn why riding the $CZBULL Bull is mathematically SAFU.
+            No tricks, no hidden wallets, and absolutely no tax. Learn why riding the $catbull stampede is mathematically SAFU.
           </p>
         </div>
 
